@@ -46,19 +46,19 @@ Built with **FastAPI**, **PostgreSQL**, and **Redis**, the system supports **tas
 
 ## 📂 Project Structure
 
-backend/
-├── app/
-│ ├── main.py # FastAPI entry point
-│ ├── api/ # API route definitions
-│ ├── models/ # SQLAlchemy models
-│ ├── schemas/ # Pydantic validation schemas
-│ ├── tasks/ # Celery task definitions
-│ ├── core/ # Config, auth, middleware
-│ └── utils/ # Helper functions (caching, security)
-├── celery_worker.py # Celery app initialization
-├── requirements.txt
-├── docker-compose.yml
-└── README.md
+    backend/
+    ├── app/
+    │ ├── main.py # FastAPI entry point
+    │ ├── api/ # API route definitions
+    │ ├── models/ # SQLAlchemy models
+    │ ├── schemas/ # Pydantic validation schemas
+    │ ├── tasks/ # Celery task definitions
+    │ ├── core/ # Config, auth, middleware
+    │ └── utils/ # Helper functions (caching, security)
+    ├── celery_worker.py # Celery app initialization
+    ├── requirements.txt
+    ├── docker-compose.yml
+    └── README.md
 
 
 ---
